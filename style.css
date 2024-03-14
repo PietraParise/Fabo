@@ -1,0 +1,31 @@
+.Banner{
+    background-color: rgb(223, 223, 170);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.Lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.Lista1{
+    background-color: pink;
+    width: 150px;
+}
+.Principal{
+    background-color: aquamarine;
+    width: 1300px;
+    height: 800px;
+    border: solid 5px white;
+}
+.Tudo{
+    display: flex;
+}
+.Menu{
+    background-color: pink;
+    border: solid 5px white;
+}

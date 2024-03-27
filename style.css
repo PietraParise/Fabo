@@ -1,5 +1,5 @@
 .Banner{
-    background-color: rgb(230, 212, 245);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 h1{
     font-size: 80px;
-    color: #d17ef1;
+    color: gold;
     
 }
 .Lista{
@@ -20,11 +20,11 @@ ul{
     font-size: 20px;
 }
 .Lista1{
-    background-color: pink;
-    width: 150px;
+    background-color:grey;
+    width: 200px;
 }
 .Principal{
-    background-color: rgb(248, 247, 188);
+    background-color: rgb(238, 237, 210);
     width: 1800px;
     height: 800px;
     border: solid 5px white;
@@ -34,10 +34,17 @@ ul{
     display: flex;
 }
 .Menu{
-    background-color: pink;
+    background-color: grey;
     border: solid 5px white;
 }
 h2{
-    color: rgb(117, 188, 235);
+    color: rgb(126, 7, 7);
     font-size: 50px;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+h4{
+    color: rgb(126, 7, 7);
 }

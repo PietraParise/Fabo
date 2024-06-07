@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(246, 255, 113));
+    width:400px;
+    height: 800px;
+    font-size:x-large;
+    color:white;
+    display: flex;
+    
+}

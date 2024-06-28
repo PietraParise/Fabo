@@ -1,15 +1,35 @@
+@media screen and (max-width: 400px){
 body{
-    background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(246, 255, 113));
-    width:280px;
-    height: 499px;
-    font-size:40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
-    display: flex;
+    background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(248, 233, 93));
     margin-bottom: 50px; 
     margin-left: 30px;
     margin-top: 20px;
+    width: 294px;
+    height: 600px;
+    display: flex;
+    
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
 }
 .img{
-    margin-right:150px ;
+    display: flex;
+    width: 220px ;
+    height: 250px;
+    
+}
+p{
+    text-align: center;
+    color: white;
+    font-size:x-large;
+}
+input{
+    background-color: antiquewhite;
+    color:black;
+    
+}
 }

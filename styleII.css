@@ -1,25 +1,23 @@
 @media screen and (max-width: 400px){
 body{
     background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(248, 233, 93));
-    margin-bottom: 50px; 
-    margin-left: 30px;
-    margin-top: 20px;
     width: 294px;
-    height: 600px;
+    height: 616px;
     display: flex;
+    justify-content: center;
     
 }
 h1{
-    font-size: 20px;
     text-align: center;
     font-size:40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
+    margin: 0px;
 }
 .img{
     display: flex;
-    width: 220px ;
-    height: 250px;
+    width: 195px ;
+    height: 241px;
     
 }
 p{
@@ -30,6 +28,20 @@ p{
 input{
     background-color: antiquewhite;
     color:black;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
     
+}
+p2{
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+}
+h2{
+    font-size: 90px;
+    color: white;
+    margin: 0px;
 }
 }

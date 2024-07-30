@@ -1,0 +1,79 @@
+@media screen and (max-width: 320px) {
+
+    body{
+        background-color:rgb(243, 224, 113) 
+    }
+    .logo{
+        text-align: center;
+        
+    }
+    button{
+        width: 75px;
+        background-color: aliceblue;
+    }
+    .div1{
+        width: 290px;
+        height: 90px;
+        background-color: rgb(250, 158, 209);
+        margin: 5px;
+
+    }
+    .div2{
+        width: 290px;
+        height: 90px;
+        background-color: rgb(250, 158, 209);
+        margin: 5px;
+    }
+    .div3{
+        width: 290px;
+        height: 90px;
+        background-color: rgb(250, 158, 209);
+        margin: 5px;
+    }
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media  screen and (min-width:321px) and (max-width:600px) {
+    body{
+        background-color: rgb(163, 182, 206);
+    }
+    .logo{
+        text-align: center;
+        
+    }
+    button{
+        width: 75px;
+        background-color: aliceblue;
+    }
+    .div1{
+        width: 433px;
+        height: 90px;
+        background-color: rgb(227, 189, 245);
+        margin: 5px;
+
+    }
+    .div2{
+        width: 433px;
+        height: 90px;
+        background-color: rgb(227, 189, 245);
+        margin: 5px;
+    }
+    .div3{
+        width: 433px;
+        height: 90px;
+        background-color: rgb(227, 189, 245);
+        margin: 5px;
+    }
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    
+}

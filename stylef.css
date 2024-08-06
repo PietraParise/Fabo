@@ -39,15 +39,24 @@
 
 @media  screen and (min-width:321px) and (max-width:600px) {
     body{
-        background-color: rgb(163, 182, 206);
+        background-color: rgb(161, 243, 168);
+      
     }
     .logo{
-        text-align: center;
-        
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        align-items: start;
     }
     button{
         width: 75px;
+        height: 20px;
         background-color: aliceblue;
+        margin-top: 28px;
+        margin-left: 10px;
+        
+        
     }
     .div1{
         width: 433px;
@@ -57,23 +66,69 @@
 
     }
     .div2{
-        width: 433px;
+        width: 214px;
         height: 90px;
         background-color: rgb(227, 189, 245);
+        margin: 5px;
+        
+        }
+    .div3{
+            width: 214px;
+            height: 90px;
+            background-color: rgb(227, 189, 245);
+            margin: 5px;
+            
+
+         }
+    .divs{
+        display: flex;
+    }        
+    
+
+    
+}
+@media screen and (min-width: 601px) and (max-width:1200px){
+    body{
+        background-color: rgb(252, 205, 205);
+        
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        align-items: start;
+    }
+    button{
+        width: 75px;
+        height: 20px;
+        background-color: rgb(242, 248, 255);
+        flex-direction: row;
+        margin-top: 28px;
+        margin-left: 10px;
+        
+    }
+    .div1{
+        width: 433px;
+        height: 90px;
+        background-color: rgb(86, 112, 184);
+        margin: 5px;
+
+    }
+    .div2{
+        width: 433px;
+        height: 90px;
+        background-color: rgb(86, 112, 184);
         margin: 5px;
     }
     .div3{
         width: 433px;
         height: 90px;
-        background-color: rgb(227, 189, 245);
+        background-color: rgb(86, 112, 184);
         margin: 5px;
     }
-    .tudo{
+    .divs{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
+    }   
 
-    
 }

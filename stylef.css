@@ -37,7 +37,7 @@
     }
 }
 
-@media  screen and (min-width:321px) and (max-width:600px) {
+@media  screen and (min-width:323px) and (max-width:600px) {
     body{
         background-color: rgb(161, 243, 168);
       
@@ -54,26 +54,26 @@
         height: 20px;
         background-color: aliceblue;
         margin-top: 28px;
-        margin-left: 10px;
+        margin-left: 52px;
         
         
     }
     .div1{
-        width: 433px;
+        width: 502px;
         height: 90px;
         background-color: rgb(227, 189, 245);
         margin: 5px;
 
     }
     .div2{
-        width: 214px;
+        width: 274px;
         height: 90px;
         background-color: rgb(227, 189, 245);
         margin: 5px;
         
         }
     .div3{
-            width: 214px;
+            width: 274px;
             height: 90px;
             background-color: rgb(227, 189, 245);
             margin: 5px;
@@ -82,12 +82,13 @@
          }
     .divs{
         display: flex;
+    
     }        
     
 
     
 }
-@media screen and (min-width: 601px) and (max-width:1200px){
+@media screen and (min-width: 601px) and (max-width:2000px){
     body{
         background-color: rgb(252, 205, 205);
         
@@ -97,7 +98,7 @@
         flex-direction: row;
     }
     h1{
-        align-items: start;
+        font-size: 30px;
     }
     button{
         width: 75px;
@@ -105,30 +106,35 @@
         background-color: rgb(242, 248, 255);
         flex-direction: row;
         margin-top: 28px;
-        margin-left: 10px;
+        margin-left: 78px;
         
     }
     .div1{
-        width: 433px;
-        height: 90px;
+        width: 100%;
+        height: 190px;
         background-color: rgb(86, 112, 184);
         margin: 5px;
 
     }
     .div2{
-        width: 433px;
-        height: 90px;
+        width: 100%;
+        height: 190px;
         background-color: rgb(86, 112, 184);
         margin: 5px;
     }
     .div3{
-        width: 433px;
-        height: 90px;
+        width: 100%;
+        height: 190px;
         background-color: rgb(86, 112, 184);
         margin: 5px;
     }
+    .tudo{
+        display: flex;
+        flex-direction: row;
+    }
     .divs{
         display: flex;
-    }   
+    }
+    
 
 }

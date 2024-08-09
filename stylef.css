@@ -38,19 +38,25 @@
     p{
         display: none;
     }
+    img{
+        width: 305px;
+        height: 100px;
+    }
 }
 
-@media  screen and (min-width:323px) and (max-width:600px) {
+@media screen and (min-width:323px) and (max-width:600px) {
     body{
-        background-color: rgb(161, 243, 168);
+        background-color: rgb(250, 158, 209);
       
     }
     .logo{
         display: flex;
         flex-direction: row;
     }
-    h1{
+    img{
         align-items: start;
+        width: 248px;
+        height: 149px;
     }
     button{
         width: 75px;
@@ -64,21 +70,21 @@
     .div1{
         width: 502px;
         height: 90px;
-        background-color: rgb(227, 189, 245);
+        background-color: rgb(243, 224, 113);
         margin: 5px;
 
     }
     .div2{
         width: 274px;
         height: 90px;
-        background-color: rgb(227, 189, 245);
+        background-color: rgb(243, 224, 113);
         margin: 5px;
         
         }
     .div3{
             width: 274px;
             height: 90px;
-            background-color: rgb(227, 189, 245);
+            background-color: rgb(243, 224, 113);
             margin: 5px;
             
 
@@ -95,59 +101,64 @@
 }
 @media screen and (min-width: 601px) and (max-width:2000px){
     body{
-        background-color: rgb(252, 205, 205);
+        background-color: rgb(243, 224, 113);
         
     }
     .logo{
         display: flex;
         flex-direction: row;
     }
-    h1{
-        font-size: 30px;
+    img{
+        width: 500px;
+        height: 125px;
     }
     button{
         width: 75px;
         height: 20px;
-        background-color: rgb(242, 248, 255);
+        background-color: rgb(255, 255, 255);
         flex-direction: row;
         margin-top: 28px;
         margin-left: 78px;
         
     }
     .div1{
-        width: 24%;
+        width: 200px;
         height: 190px;
-        background-color: rgb(86, 112, 184);
+        background-color: rgb(250, 158, 209);
         margin: 5px;
-        margin-left: 131px;
+        
 
     }
     .div2{
-        width: 33%;
+        width: 200px;
         height: 190px;
-        background-color: rgb(86, 112, 184);
+        background-color: rgb(250, 158, 209);
         margin: 5px;
+        
     }
     .div3{
-        width: 33%;
+        width: 200px;
         height: 190px;
-        background-color: rgb(86, 112, 184);
+        background-color: rgb(250, 158, 209);
         margin: 5px;
     }
     .tudo{
         display: flex;
         flex-direction: row;
+        
     }
     .divs{
         display: flex;
         height: 198px;
-        width: 629.367px;
+        width: 629px;
         border-right-width: 0px;
         border-right-style: solid ;
         margin-right: 0px;
+        
+        
     }
     p{
-        color: rgb(61, 80, 133);
+        color: rgb(250, 158, 209);
         
     }
     

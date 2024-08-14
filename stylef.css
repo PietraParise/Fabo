@@ -71,21 +71,21 @@
     }
     .div1{
         width: 502px;
-        height: 90px;
+        height: 190px;
         background-color: rgb(243, 224, 113);
         margin: 5px;
 
     }
     .div2{
         width: 274px;
-        height: 90px;
+        height: 190px;
         background-color: rgb(243, 224, 113);
         margin: 5px;
         
         }
     .div3{
             width: 274px;
-            height: 90px;
+            height: 190px;
             background-color: rgb(243, 224, 113);
             margin: 5px;
             
@@ -111,7 +111,7 @@
         flex-direction: row;
     }
     img{
-        width: 500px;
+        width: 380px;
         height: 125px;
         background-attachment: fixed;
     }
@@ -148,6 +148,7 @@
     .tudo{
         display: flex;
         flex-direction: row;
+        justify-content: flex-end;
         
     }
     .divs{

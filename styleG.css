@@ -41,7 +41,7 @@ h2{
    
 }
 .b1{
-    background-image: linear-gradient(to bottom right, rgb(88, 55, 55) , rgb(214, 201, 171) );
+    background-image: linear-gradient(to bottom right, rgb(88, 55, 55) , rgb(141, 148, 160) );
     height: 40px;
     width: 130px;
     border-color: transparent;
@@ -52,4 +52,18 @@ h2{
     height: 40px;
     width: 130px;
     border-color: rgb(88, 55, 55);
+}
+.f{
+    width: 30px;
+}
+.t{
+    width: 50px;
+}
+.fundo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1600px;
+    margin-top: 250px;
+    gap: 50px;
+    
 }
